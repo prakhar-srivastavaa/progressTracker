@@ -1,0 +1,27 @@
+# Backend sensitive files
+backend/node_modules/
+backend/.env
+backend/serviceAccountKey.json
+
+# Frontend sensitive files
+frontend/config.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
